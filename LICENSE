@@ -1,0 +1,16 @@
+# Documentation for Infosys Data LLM
+
+## Project Structure
+- **Data Preparation**: The data is loaded from Excel files, preprocessed to handle numeric conversions, and split into training and test datasets.
+- **Model**: Utilizes BERT-base-uncased for binary classification tasks. Adjustments are made to the model configuration for the specific needs of financial data.
+- **Training**: Detailed steps are provided in the notebook to train the model, including setting hyperparameters and running the training loop.
+- **Evaluation**: The model is evaluated using accuracy and loss metrics to determine its performance on unseen data.
+
+## Technical Details
+- **Tokenizer**: Used to convert text data into a format suitable for the BERT model.
+- **Optimizer**: AdamW is used for optimizing the neural network.
+- **Loss Function**: Cross-entropy loss is used for this classification task.
+
+## Future Work
+- **Data Augmentation**: Exploring techniques like RAG to augment the data for better model generalization.
+- **Model Enhancement**: Experiment with other models like RoBERTa or GPT-3 for comparative performance analysis.
