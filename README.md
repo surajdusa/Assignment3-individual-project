@@ -13,16 +13,15 @@ This project demonstrates the process of fine-tuning a pre-trained BERT model (B
 ### Libraries
 Install the required libraries using pip:
 
-```bash
 pip install -r requirements.txt
 Usage
 To use this project, follow these steps:
-1.Clone this repository.
-2.Ensure you have the necessary Python packages installed:
-bash
+* Clone this repository.
+* Ensure you have the necessary Python packages installed:
 pip install -r requirements.txt
-3.Open the Infosys Data LLM.ipynb notebook in Google Colab or Jupyter Notebook.
-4.Follow the instructions in the notebook to run the model training and evaluation.
+* Open the Infosys Data LLM.ipynb notebook in Google Colab or Jupyter Notebook.
+* Follow the instructions in the notebook to run the model training and evaluation.
+  
 ## **Model Training**
 The model is trained on the financial data provided in the Excel files, which include descriptions and financial figures from Infosys's financial statements over several years. The model predicts whether the financial amounts exceed a certain threshold.
 
